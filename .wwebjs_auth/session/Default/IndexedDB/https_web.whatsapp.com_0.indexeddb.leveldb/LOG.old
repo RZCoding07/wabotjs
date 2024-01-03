@@ -1,3 +1,30 @@
-2024/01/03-00:15:50.501 2ff0 Reusing MANIFEST D:\backend_lokal\4\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2024/01/03-00:15:50.502 2ff0 Recovering log #390
-2024/01/03-00:15:50.620 2ff0 Reusing old log D:\backend_lokal\4\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000390.log 
+2024/01/03-14:14:43.396 1cc0 Reusing MANIFEST C:\Users\RIZKY\Documents\MyProject\waweb\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/01/03-14:14:43.396 1cc0 Recovering log #390
+2024/01/03-14:14:43.557 1cc0 Reusing old log C:\Users\RIZKY\Documents\MyProject\waweb\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000390.log 
+2024/01/03-14:15:07.337 2b60 Level-0 table #404: started
+2024/01/03-14:15:07.397 2b60 Level-0 table #404: 1331921 bytes OK
+2024/01/03-14:15:07.400 2b60 Delete type=0 #390
+2024/01/03-14:15:07.420 2b60 Compacting 1@1 + 10@2 files
+2024/01/03-14:15:07.584 2b60 Generated table #405@1: 54389 keys, 2245586 bytes
+2024/01/03-14:15:07.643 2b60 Generated table #406@1: 2652 keys, 2161347 bytes
+2024/01/03-14:15:07.711 2b60 Generated table #407@1: 3100 keys, 2162313 bytes
+2024/01/03-14:15:07.770 2b60 Generated table #408@1: 2858 keys, 2147857 bytes
+2024/01/03-14:15:07.893 2b60 Generated table #409@1: 25648 keys, 2250604 bytes
+2024/01/03-14:15:08.036 2b60 Generated table #410@1: 21463 keys, 2222687 bytes
+2024/01/03-14:15:08.162 2b60 Generated table #411@1: 36602 keys, 2166580 bytes
+2024/01/03-14:15:08.410 2b60 Generated table #412@1: 102931 keys, 2254235 bytes
+2024/01/03-14:15:08.576 2b60 Generated table #413@1: 103724 keys, 2255962 bytes
+2024/01/03-14:15:08.630 2b60 Generated table #414@1: 32984 keys, 732269 bytes
+2024/01/03-14:15:08.630 2b60 Compacted 1@1 + 10@2 files => 20599440 bytes
+2024/01/03-14:15:08.631 2b60 compacted to: files[ 0 0 10 0 0 0 0 ]
+2024/01/03-14:15:08.631 2b60 Delete type=2 #392
+2024/01/03-14:15:08.631 2b60 Delete type=2 #393
+2024/01/03-14:15:08.631 2b60 Delete type=2 #394
+2024/01/03-14:15:08.631 2b60 Delete type=2 #395
+2024/01/03-14:15:08.631 2b60 Delete type=2 #396
+2024/01/03-14:15:08.631 2b60 Delete type=2 #397
+2024/01/03-14:15:08.631 2b60 Delete type=2 #398
+2024/01/03-14:15:08.631 2b60 Delete type=2 #399
+2024/01/03-14:15:08.632 2b60 Delete type=2 #400
+2024/01/03-14:15:08.632 2b60 Delete type=2 #401
+2024/01/03-14:15:08.632 2b60 Delete type=2 #404

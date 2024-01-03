@@ -1,8 +1,11 @@
 const { Client, LocalAuth, MessageMedia, Buttons, Button } = require('whatsapp-web.js');
-const port = 4000
 const express = require('express')
+const morgan = require('morgan');
+const helmet = require('helmet');
+const cors = require('cors');
+const cookieParser = require('cookie-parser');
 const app = express()
-const token = process.env.APP_TOKEN
+const port = process.env.PORT || 5000
 
 const qrcode = require('qrcode-terminal');
 const client = new Client({
@@ -19,7 +22,7 @@ let chatTimeouts = {}; // Objek untuk menyimpan timeout dari setiap chat
 client.on('qr', qr => {
     qrcode.generate(qr, { small: true });
 });
-ada 
+
 client.on('ready', () => {
     console.log('Client is ready!');
 });
@@ -69,6 +72,15 @@ client.on('message', async (message) => {
 
 
 client.initialize();
+
+app.use(morgan('dev'));
+app.use(helmet());
+app.use(cors())
+app.use(express.json())
+app.use(express.urlencoded({ extended: true }))
+
+
+app.use(cookieParser())
 
 
 app.listen(port, () => {
